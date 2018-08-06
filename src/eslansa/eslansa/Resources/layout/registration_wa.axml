@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
         <TextView
-            android:text="Registrate xd"
+            android:text="Registrate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />

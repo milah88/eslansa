@@ -9,8 +9,7 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Content;
 using Android.Widget;
-
-
+using eslansa.Actividades;
 
 namespace eslansa
 {
@@ -109,7 +108,8 @@ namespace eslansa
             }
             else if (id == Resource.Id.nav_send)
             {
-
+                Intent newActivity = new Android.Content.Intent(this, typeof(login_activity));
+                this.StartActivity(newActivity);
             }
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

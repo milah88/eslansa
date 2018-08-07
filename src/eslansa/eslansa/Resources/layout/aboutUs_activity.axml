@@ -12,6 +12,8 @@
         android:id="@+id/linearLayout1">
         <TextView
             android:text="Acerca de"
+            android:textColor="#4fbfa8"
+            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView1" />
@@ -19,9 +21,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
-            android:text="Esta aplicación sirve para poder visualizar los productos de la empresa Eslansa S.A.C y poder realizar compras, asi mismo poder interactuar con el blog de la página." />
+            android:text="Esta aplicación sirve para poder visualizar los productos de la empresa Eslansa S.A.C y poder realizar compras, asi mismo poder interactuar con el blog de la página."
+            android:textSize="15dp" />
         <TextView
             android:text="Créditos"
+            android:textColor="#4fbfa8"
+            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView3" />
@@ -29,16 +34,19 @@
             android:text="=&gt;Fonseca Villar Milagros (Programador)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
             android:id="@+id/textView4" />
         <TextView
             android:text="=&gt;Hinostroza Fernandez Paul (Programador)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
             android:id="@+id/textView5" />
         <TextView
             android:text="=&gt;Onofre Perez Jeffrey (Programador)"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
             android:id="@+id/textView6" />
     </LinearLayout>
 </LinearLayout>

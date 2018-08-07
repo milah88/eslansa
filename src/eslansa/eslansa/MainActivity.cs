@@ -23,9 +23,6 @@ namespace eslansa
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-         
-
-
             Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
@@ -88,28 +85,30 @@ namespace eslansa
 
             if (id == Resource.Id.nav_camera)
             {
-                // Handle the camera action
+                Intent newActivity = new Android.Content.Intent(this, typeof(login_activity));
+                this.StartActivity(newActivity);
             }
             else if (id == Resource.Id.nav_gallery)
             {
-
+                Intent newActivity = new Android.Content.Intent(this, typeof(registrate_activity));
+                this.StartActivity(newActivity);
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-
+                Intent newActivity = new Android.Content.Intent(this, typeof(aboutUs_activity));
+                this.StartActivity(newActivity);
             }
             else if (id == Resource.Id.nav_manage)
             {
-
+                
             }
             else if (id == Resource.Id.nav_share)
             {
-
+                
             }
             else if (id == Resource.Id.nav_send)
             {
-                Intent newActivity = new Android.Content.Intent(this, typeof(login_activity));
-                this.StartActivity(newActivity);
+                
             }
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

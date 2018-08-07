@@ -2435,8 +2435,8 @@ namespace eslansa
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int action_settings = 2131230919;
+			// aapt resource value: 0x7f0800cd
+			public const int action_settings = 2131230925;
 			
 			// aapt resource value: 0x7f0800ad
 			public const int action_text = 2131230893;
@@ -2479,6 +2479,9 @@ namespace eslansa
 			
 			// aapt resource value: 0x7f0800a8
 			public const int btnRegistrate = 2131230888;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int button1 = 2131230915;
 			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
@@ -2551,6 +2554,21 @@ namespace eslansa
 			
 			// aapt resource value: 0x7f080092
 			public const int drawer_layout = 2131230866;
+			
+			// aapt resource value: 0x7f0800be
+			public const int editText1 = 2131230910;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int editText2 = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int editText3 = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int editText4 = 2131230913;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int editText5 = 2131230914;
 			
 			// aapt resource value: 0x7f08007e
 			public const int edit_query = 2131230846;
@@ -2651,14 +2669,14 @@ namespace eslansa
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int masked = 2131230912;
+			// aapt resource value: 0x7f0800c6
+			public const int masked = 2131230918;
 			
 			// aapt resource value: 0x7f0800b1
 			public const int media_actions = 2131230897;
 			
-			// aapt resource value: 0x7f0800be
-			public const int message = 2131230910;
+			// aapt resource value: 0x7f0800c4
+			public const int message = 2131230916;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2669,23 +2687,23 @@ namespace eslansa
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int nav_camera = 2131230913;
+			// aapt resource value: 0x7f0800c7
+			public const int nav_camera = 2131230919;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int nav_gallery = 2131230914;
+			// aapt resource value: 0x7f0800c8
+			public const int nav_gallery = 2131230920;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int nav_manage = 2131230916;
+			// aapt resource value: 0x7f0800ca
+			public const int nav_manage = 2131230922;
 			
-			// aapt resource value: 0x7f0800c6
-			public const int nav_send = 2131230918;
+			// aapt resource value: 0x7f0800cc
+			public const int nav_send = 2131230924;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int nav_share = 2131230917;
+			// aapt resource value: 0x7f0800cb
+			public const int nav_share = 2131230923;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int nav_slideshow = 2131230915;
+			// aapt resource value: 0x7f0800c9
+			public const int nav_slideshow = 2131230921;
 			
 			// aapt resource value: 0x7f080093
 			public const int nav_view = 2131230867;
@@ -2957,8 +2975,8 @@ namespace eslansa
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int visible = 2131230911;
+			// aapt resource value: 0x7f0800c5
+			public const int visible = 2131230917;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3206,19 +3224,22 @@ namespace eslansa
 			public const int notification_template_part_time = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_item_material = 2130968637;
+			public const int registration_wa = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_multichoice_material = 2130968638;
+			public const int select_dialog_item_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_singlechoice_material = 2130968639;
+			public const int select_dialog_multichoice_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int support_simple_spinner_dropdown_item = 2130968640;
+			public const int select_dialog_singlechoice_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int tooltip = 2130968641;
+			public const int support_simple_spinner_dropdown_item = 2130968641;
+			
+			// aapt resource value: 0x7f040042
+			public const int tooltip = 2130968642;
 			
 			static Layout()
 			{

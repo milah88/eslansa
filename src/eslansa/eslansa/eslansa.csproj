@@ -117,6 +117,12 @@
 
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\registration_wa.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\layout\aboutUs_activity.axml">
       <SubType>Designer</SubType>
     </AndroidResource>

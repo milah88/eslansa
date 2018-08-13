@@ -96,13 +96,11 @@ namespace eslansa
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-                Intent newActivity = new Android.Content.Intent(this, typeof(aboutUs_activity));
-                this.StartActivity(newActivity);
+                changeFrame("aboutus");
             }
             else if (id == Resource.Id.nav_manage)
             {
-                Intent newActivity = new Android.Content.Intent(this, typeof(producto_activity));
-                this.StartActivity(newActivity);
+                changeFrame("products");
             }
             else if (id == Resource.Id.nav_share)
             {
@@ -145,7 +143,7 @@ namespace eslansa
             }
             if (fragment != null)
             {
-                //ft.Replace(Resource.Id.fragmentMany, fragment);
+                ft.Replace(Resource.Id.fragmentManyo, fragment);
                 //ft.AddToBackStack(null);
                 ft.SetTransition(FragmentTransit.FragmentFade);
                 ft.Commit();

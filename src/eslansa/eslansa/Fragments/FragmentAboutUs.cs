@@ -27,7 +27,8 @@ namespace eslansa.Fragments
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
 
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            View v = inflater.Inflate(Resource.Layout.fragment_aboutUs, container, false);
+            return v;
         }
     }
 }

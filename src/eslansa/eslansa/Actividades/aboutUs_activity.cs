@@ -18,7 +18,7 @@ namespace eslansa.Actividades
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.aboutUs_activity);
+            SetContentView(Resource.Layout.fragment_aboutUs);
             // Create your application here
         }
     }

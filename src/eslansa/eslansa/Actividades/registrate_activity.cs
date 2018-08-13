@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace eslansa.Actividades
 {
-    [Activity(Label = "registrate_activity")]
+    [Activity(Label = "registrate_activity", Theme = "@style/My.GeneralForm")]
     public class registrate_activity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

@@ -63,9 +63,10 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText5" />
         <Button
-            android:text="Registrar"
+            android:text="Registrate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            style="@style/AppTheme.GeneralButton" />
     </LinearLayout>
 </LinearLayout>

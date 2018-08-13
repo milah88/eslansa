@@ -100,15 +100,18 @@ namespace eslansa
             }
             else if (id == Resource.Id.nav_manage)
             {
-                
+                Intent newActivity = new Android.Content.Intent(this, typeof(producto_activity));
+                this.StartActivity(newActivity);
             }
             else if (id == Resource.Id.nav_share)
             {
-                
+                Intent newActivity = new Android.Content.Intent(this, typeof(detalleproducto_activity));
+                this.StartActivity(newActivity);
             }
             else if (id == Resource.Id.nav_send)
             {
-                
+                Intent newActivity = new Android.Content.Intent(this, typeof(carrito_activity));
+                this.StartActivity(newActivity);
             }
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

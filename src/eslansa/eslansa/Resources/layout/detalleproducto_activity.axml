@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:paddingTop="40dp"
+    android:paddingRight="40dp"
+    android:paddingLeft="40dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/producto" />
+        <TextView
+            android:text="Producto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#4fbfa8"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
+        <TextView
+            android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit curae, bibendum habitant velit nisi torquent lacinia inceptos blandit."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="S/.150.00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/textView3" />
+        <Button
+            android:text="Agregar al carrito"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnAgregar"
+            android:background="#4fbfa8"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</RelativeLayout>

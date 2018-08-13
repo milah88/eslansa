@@ -56,7 +56,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actividades\aboutUs_activity.cs" />
+    <Compile Include="Actividades\carrito_activity.cs" />
+    <Compile Include="Actividades\detalleproducto_activity.cs" />
     <Compile Include="Actividades\login_activity.cs" />
+    <Compile Include="Actividades\producto_activity.cs" />
     <Compile Include="Actividades\registrate_activity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -138,7 +141,18 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logoEslansa.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\carrito_activity.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\detalleproducto_activity.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\producto_activity.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\producto.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 		Other similar extension points exist, see Microsoft.Common.targets.

@@ -10,6 +10,7 @@ using Android.Views;
 using Android.Content;
 using Android.Widget;
 using eslansa.Actividades;
+using eslansa.Fragments;
 
 namespace eslansa
 {
@@ -122,6 +123,33 @@ namespace eslansa
 
         private void login(object sender, EventArgs e)
         {
+
+        }
+
+        private void changeFrame(string _type)
+        {
+            FragmentTransaction ft = FragmentManager.BeginTransaction();
+
+            Fragment fragment = null;
+            if (_type.Equals("aboutus"))
+            {
+                fragment = new FragmentAboutUs();
+            }
+            else if (_type.Equals("products"))
+            {
+                fragment = new FragmentProductos();
+            }
+            else
+            {
+
+            }
+            if (fragment != null)
+            {
+                //ft.Replace(Resource.Id.fragmentMany, fragment);
+                //ft.AddToBackStack(null);
+                ft.SetTransition(FragmentTransit.FragmentFade);
+                ft.Commit();
+            }
 
         }
     }

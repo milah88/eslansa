@@ -61,6 +61,8 @@
     <Compile Include="Actividades\login_activity.cs" />
     <Compile Include="Actividades\producto_activity.cs" />
     <Compile Include="Actividades\registrate_activity.cs" />
+    <Compile Include="Fragments\FragmentAboutUs.cs" />
+    <Compile Include="Fragments\FragmentProductos.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -126,7 +128,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\aboutUs_activity.axml">
+    <AndroidResource Include="Resources\layout\fragment_aboutUs.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -148,7 +150,7 @@
     <AndroidResource Include="Resources\layout\detalleproducto_activity.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\producto_activity.axml" />
+    <AndroidResource Include="Resources\layout\fragment_producto.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\producto.jpg" />

@@ -96,21 +96,23 @@ namespace eslansa
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-                changeFrame("aboutus");
-            }
-            else if (id == Resource.Id.nav_manage)
-            {
-                changeFrame("products");
-            }
-            else if (id == Resource.Id.nav_share)
-            {
                 Intent newActivity = new Android.Content.Intent(this, typeof(detalleproducto_activity));
                 this.StartActivity(newActivity);
             }
-            else if (id == Resource.Id.nav_send)
+            else if (id == Resource.Id.nav_manage)
             {
                 Intent newActivity = new Android.Content.Intent(this, typeof(carrito_activity));
                 this.StartActivity(newActivity);
+                
+            }
+            else if (id == Resource.Id.nav_share)
+            {
+                changeFrame("aboutus");
+                
+            }
+            else if (id == Resource.Id.nav_send)
+            {
+                changeFrame("products");
             }
 
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

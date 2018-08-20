@@ -4,7 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
+    android:minHeight="25px"
+    android:gravity="center_vertical|center"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp">
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"
@@ -12,61 +15,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/logoEslansa"
+            android:layout_marginTop="10dp" />
         <TextView
             android:text="Registrate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
-        <TextView
-            android:text="Nombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView1"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#4fbfa8"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText1" />
-        <TextView
-            android:text="Apellidos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/txtNombres"
+            android:hint="Nombres" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2" />
-        <TextView
-            android:text="Correo electronico"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/txtApellidos"
+            android:hint="Apellidos" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText3" />
-        <TextView
-            android:text="Contraseña"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView5" />
+            android:id="@+id/txtFechaNac"
+            android:hint="Fecha de Nacimiento" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText4" />
-        <TextView
-            android:text="Repita su Contraseña"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView6" />
+            android:id="@+id/txtCorreo"
+            android:hint="E-mail" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText5" />
-        <Button
-            android:text="Registrate"
+            android:id="@+id/txtContraseña"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1"
-            style="@style/AppTheme.GeneralButton" />
+            android:id="@+id/txtRepetirContraseña"
+            android:hint="Repetir contraseña"
+            android:inputType="textPassword" />
     </LinearLayout>
 </LinearLayout>

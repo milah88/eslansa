@@ -3,5 +3,30 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageProduct" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textName"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textDescription"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

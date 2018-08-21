@@ -18,7 +18,7 @@ using Android.Graphics;
 
 namespace eslansa.Adapters
 {
-    class ProductAdapter : BaseAdapter
+    class ProductAdapter : BaseAdapter<Products>
     {
         List<Products> list;
         Context context;

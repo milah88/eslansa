@@ -126,6 +126,10 @@ namespace eslansa
         {
 
         }
+        public void changeFrame(string _type)
+        {
+            this.changeFrame(_type, null);
+        }
 
         private void changeFrame(string _type, Dictionary<string, string> _params)
         {

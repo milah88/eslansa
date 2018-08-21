@@ -16,7 +16,7 @@ using SimpleJson;
 
 namespace eslansa.Models
 {
-    class Products
+    public class Products
     {
         public int id { get; set; }
         public string nombreProducto { get; set; }

@@ -11,6 +11,7 @@ using Android.Content;
 using Android.Widget;
 using eslansa.Actividades;
 using eslansa.Fragments;
+using System.Collections.Generic;
 
 namespace eslansa
 {
@@ -126,10 +127,10 @@ namespace eslansa
 
         }
 
-        private void changeFrame(string _type)
+        private void changeFrame(string _type, Dictionary<string, string> _params)
         {
             FragmentTransaction ft = FragmentManager.BeginTransaction();
-
+            Bundle bundleParams = new Bundle();
             Fragment fragment = null;
             if (_type.Equals("aboutus"))
             {
@@ -139,12 +140,21 @@ namespace eslansa
             {
                 fragment = new FragmentProductos();
             }
+            else if (_type.Equals("detail_products"))
+            {
+                foreach (string o in _params.Keys)
+                {
+                    bundleParams.PutString(o, _params[o]);
+                }
+                fragment = new fragmentDetailProducts(this);
+            }
             else
             {
 
             }
             if (fragment != null)
             {
+                fragment.Arguments = bundleParams;
                 ft.Replace(Resource.Id.fragmentManyo, fragment);
                 //ft.AddToBackStack(null);
                 ft.SetTransition(FragmentTransit.FragmentFade);
